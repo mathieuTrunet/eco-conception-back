@@ -1,0 +1,15 @@
+{
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#b3caef",
+        "titleBar.activeForeground": "#000000",
+        "titleBar.inactiveBackground": "#b3caef",
+        "titleBar.inactiveForeground": "#000000",
+        "titleBar.border": "#b3caef",
+        "activityBar.foreground": "#b3caef",
+        "tab.activeBorder": "#b3caef",
+        "iLoveWorkSpaceColors": true,
+        "iLoveWorkSpaceRandom": false,
+        "useWorkspaceLite": true
+    },
+    "go.toolsEnvVars": {}
+}
