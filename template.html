@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Builded page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
+</head>
+
+<body>
+    {{range .Data}}
+    <section>
+        <div>
+            {{.Text}}
+        </div>
+    </section>
+    {{end}}
+</body>
+
+</html>
+
+<style>
+    body {
+        font-family: 'Inter', sans-serif;
+        text-wrap: balance;
+        position: relative;
+    }
+
+    div {
+        padding: 2rem;
+    }
+
+    section {
+        margin: 0.25rem;
+        padding: 0.125rem
+    }
+</style>
